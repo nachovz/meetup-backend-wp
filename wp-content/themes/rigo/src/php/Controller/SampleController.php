@@ -12,7 +12,7 @@ class SampleController{
     }
     
     public function getDraftCourses(){
-        $query = Course::all([ 'status' => 'draft' ]);
+        $query = Course::all(['post_status' => 'published' ]);
         return $query->posts;
     }
     

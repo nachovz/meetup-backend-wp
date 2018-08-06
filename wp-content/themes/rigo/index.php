@@ -6,7 +6,7 @@ $args = wpas_get_view_data();
 <html>
     <head>
         <title>Hello from Rigo!</title>
-        <?php wp_head() ?>
+        <?php wp_head(); ?>
     </head>
     <body>
         <h1>Hello from <?php echo $args['name']; ?>!</h1>

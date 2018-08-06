@@ -5,6 +5,7 @@ use WPAS\Types\BasePostType;
 
 class Course extends BasePostType{
     
+
 }
 
 ?>
